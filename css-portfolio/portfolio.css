@@ -1,0 +1,154 @@
+body {
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  background-color: #e5e5e5;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Logo */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo .logo-studio {
+  color: #212121;
+}
+
+.logo .logo-web {
+  color: #2196f3;
+}
+.logo .logo-studio-fotter {
+  color: #ffffff;
+}
+
+/* Navigation */
+.nav .nav-link {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+
+/* Contacts Header */
+.contacts .contacts-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #757575;
+  text-decoration: none;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #2196f3;
+}
+
+/* Filter */
+.filter .filter_btn {
+  color: #212121;
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.filter_btn:hover,
+.filter_btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* Portfolio */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.portfolio-list:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.portfolio-list .item {
+  width: 370px;
+  margin-right: 30px;
+}
+
+.portfolio-list .title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+.portfolio .title:hover,
+.portfolio .title:focus {
+  color: #2196f3;
+}
+.portfolio-list .dicription {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .adress {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.adress-list .adress_link {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer .adress_link:focus,
+.footer .adress_link:hover {
+  color: #2196f3;
+}

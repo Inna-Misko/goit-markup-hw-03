@@ -1,13 +1,3 @@
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: #757575;
@@ -44,7 +34,6 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  text-decoration: none;
 }
 
 .logo .logo-studio {
@@ -89,10 +78,6 @@ a {
   align-items: center;
 }
 
-.site-nav .item {
-  outline: 1px solid red;
-}
-
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
 }
@@ -115,11 +100,7 @@ a {
 /* Contacts Header */
 .contacts {
   display: flex;
-  margin-left: auto;
-}
-
-.contacts .item:not(:last-child) {
-  margin-right: 50px;
+  padding: 0px;
 }
 
 .contacts .contacts-link {
@@ -177,6 +158,7 @@ a {
 /* Edge Преимущества */
 .edge-list {
   display: flex;
+  justify-content: space-between;
   padding: 94px 0px;
 }
 
@@ -191,9 +173,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
-.edge-item:not(:first-child) {
-  padding-left: 30px;
+.edge-item {
   width: 270px;
 }
 
@@ -224,7 +204,7 @@ a {
 }
 
 .work-list {
-  display: inline-flex;
+  display: flex;
 
   margin: 0px;
   margin-right: auto;
@@ -232,10 +212,6 @@ a {
   padding-right: 0px;
   padding-left: 0px;
   padding-bottom: 94px;
-}
-
-.work-list:not(:first-child) {
-  padding-left: 30px;
 }
 
 /* Stuff */

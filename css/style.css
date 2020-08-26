@@ -23,14 +23,23 @@ a {
   padding-left: 15px;
 }
 
+.flex-box {
+  display: flex;
+}
+
+.menu-list {
+  display: flex;
+}
+
 /* page-header */
 
 .main-header {
-  display: flex;
   align-items: center;
 }
 /* Logo */
 .logo {
+  margin-right: 93px;
+
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -40,7 +49,6 @@ a {
 .logo .logo-studio {
   color: #000000;
   margin-left: -6px;
-  margin-right: 93px;
 }
 
 .logo .logo-web {
@@ -71,15 +79,15 @@ a {
 .nav-box {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .site-nav {
-  display: flex;
   margin-left: 0px;
   padding-left: 0px;
 }
 
-.site-nav .item:not(:last-child) {
+.menu-item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -103,7 +111,7 @@ a {
   display: flex;
 }
 
-.contacts .item {
+.contacts .item:first-child {
   margin-right: 50px;
 }
 
@@ -161,9 +169,13 @@ a {
 
 /* Edge Преимущества */
 .edge-list {
-  display: flex;
   justify-content: space-between;
-  padding: 94px 0px;
+  padding-top: 94px;
+  margin-bottom: 94px;
+}
+
+.edge-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .edge .edge-title {
@@ -208,20 +220,20 @@ a {
 }
 
 .work-list {
-  display: flex;
-
-  margin: 0px;
-  margin-right: auto;
-  margin-left: auto;
   padding-right: 0px;
   padding-left: 0px;
   padding-bottom: 94px;
 }
 
-/* Stuff */
-.staff {
-  background-color: #f5f4fa;
+.work-item {
+  width: calc((100% - 30px * 2) / 3);
+  margin-right: 30px;
 }
+
+.team-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+
+  /* Stuff */
 .staff .staff-title {
   margin: 0px;
   margin-bottom: 50px;
@@ -235,9 +247,6 @@ a {
   text-align: center;
 }
 
-.staff ul {
-  padding-left: 0px;
-}
 
 .staff-list .name {
   margin-bottom: 10px;

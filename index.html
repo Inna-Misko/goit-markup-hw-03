@@ -19,46 +19,45 @@
     <!--Logo, Navigation, Contacts, Шапка сайта-->
 
     <header class="page-header">
-      <div class="container">
-        <div class="main-header">
-          <nav class="nav-box">
-            <a href="" class="logo">
-              <span class="logo-web">Web</span>
-              <span class="logo-studio">Studio</span>
-            </a>
-            <ul class="site-nav">
-              <li class="item"><a href="" class="nav-link">Студия</a></li>
-              <li class="item">
-                <a href="./portfolio.html" class="nav-link">Портфолио</a>
-              </li>
-              <li class="item"><a href="" class="nav-link">Контакты</a></li>
-            </ul>
-          </nav>
-          <div class="contacts-box">
-            <address>
-              <ul class="contacts">
-                <li class="item">
-                  <img src="./img/mail.svg" alt="почта" />
-                  <a class="contacts-link" href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
-                  >
-                </li>
-                <li class="item">
-                  <img src="./img/tell.svg" alt="телефон" />
-                  <a class="contacts-link" href="tel:+380961111111"
-                    >+38 096 111 11 11</a
-                  >
-                </li>
-              </ul>
-            </address>
-          </div>
-        </div>
+      <div class="container flex-box main-header">
+        <nav class="nav-box">
+          <a href="" class="logo">
+            <span class="logo-web">Web</span>
+            <span class="logo-studio">Studio</span>
+          </a>
+          <ul class="site-nav menu-list">
+            <li class="menu-item">
+              <a href="" class="nav-link">Студия</a>
+            </li>
+            <li class="menu-item">
+              <a href="./portfolio.html" class="nav-link">Портфолио</a>
+            </li>
+            <li class="menu-item">
+              <a href="" class="nav-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <address>
+          <ul class="contacts">
+            <li class="item">
+              <img src="./img/mail.svg" alt="почта" />
+              <a class="contacts-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="item">
+              <img src="./img/tell.svg" alt="телефон" />
+              <a class="contacts-link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </header>
-
     <main>
       <!--Hero, Эффективные решения для вашего бизнеса-->
-
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">
@@ -72,11 +71,10 @@
       </section>
 
       <!--Edge, Наши преимущества-->
-
       <section class="edge">
         <div class="container">
           <h2 class="edge-hidden">Наши преимущества</h2>
-          <ul class="edge-list">
+          <ul class="edge-list flex-box">
             <li class="edge-item">
               <h3 class="edge-title">Внимание к деталям</h3>
               <p class="edge-text">
@@ -110,26 +108,25 @@
       </section>
 
       <!--Works, Чем мы занимаемся-->
-
       <section class="work">
         <div class="container">
           <h2 class="work-title">Чем мы занимаемся</h2>
-          <ul class="work-list">
-            <li>
+          <ul class="work-list flex-box">
+            <li class="work-item">
               <img
                 src="./img/img.jpg"
                 alt="Десктопные приложения"
                 width="370"
               />
             </li>
-            <li>
+            <li class="work-item">
               <img
                 src="./img/img2.jpg"
                 alt="Мобильные приложения"
                 width="370"
               />
             </li>
-            <li>
+            <li class="work-item">
               <img src="./img/img3.jpg" alt="Дизайн" width="370" />
             </li>
           </ul>
@@ -141,7 +138,7 @@
       <section class="staff">
         <div class="container">
           <h2 class="staff-title">Наша команда</h2>
-          <ul class="staff-list">
+          <ul class="staff-list flex-box">
             <li>
               <img
                 class="image"

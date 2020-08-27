@@ -43,11 +43,14 @@ a {
 }
 
 /* page-header */
+.page-header {
+}
 
 .main-header {
   display: flex;
   align-items: center;
 }
+
 /* Logo */
 .logo {
   margin-right: 93px;

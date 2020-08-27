@@ -67,6 +67,7 @@ a {
 .logo-footer {
   display: inline-block;
   margin-top: 60px;
+  margin-bottom: 20px;
 
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -232,8 +233,24 @@ a {
 
 .team-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
+}
 
-  /* Stuff */
+/* Stuff */
+.staff-list {
+  flex-wrap: wrap;
+}
+
+.staff-list .name {
+  margin-bottom: 10px;
+  margin-top: 30px;
+
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
 .staff .staff-title {
   margin: 0px;
   margin-bottom: 50px;
@@ -247,21 +264,14 @@ a {
   text-align: center;
 }
 
-
-.staff-list .name {
-  margin-bottom: 10px;
-  margin-top: 30px;
-
-  color: #212121;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
+.staff-item {
+  width: calc((100% - 30px * 4) / 4);
+  margin-right: 30px;
+  padding-bottom: 94px;
 }
 
-.image {
-  margin-left: 0px;
-  margin-right: 0px;
+.staff-list:last-child {
+  margin-bottom: 0;
 }
 
 .staff-list .descript {
@@ -278,7 +288,13 @@ a {
   background-color: #2f303a;
 }
 
-.footer .adress {
+.footer-box {
+  width: 270px;
+}
+
+.footer-item {
+  margin-bottom: 10px;
+
   color: #ffffff;
   font-style: normal;
   font-size: 14px;
@@ -288,6 +304,7 @@ a {
 
 .footer-list {
   padding: 0px;
+  margin-bottom: 10px;
 }
 
 .footer-list:last-child {

@@ -81,7 +81,6 @@ a {
 
 .logo-footer {
   display: inline-block;
-  margin-top: 60px;
   margin-bottom: 20px;
 
   font-family: "Raleway", sans-serif;
@@ -148,11 +147,12 @@ a {
 .hero {
   background-color: var(--bg-footer-color);
   color: var(--white);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero .hero-title {
   margin: 0px;
-  padding-top: 200px;
   margin-bottom: 40px;
 
   font-weight: 900;
@@ -180,14 +180,15 @@ a {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 200px;
 }
 
 /* Edge Преимущества */
+.edge {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .edge-list {
   justify-content: space-between;
-  padding-top: 94px;
-  margin-bottom: 94px;
 }
 
 .edge-item:not(:last-child) {
@@ -222,8 +223,11 @@ a {
 }
 
 /* Works */
+.work {
+  padding-bottom: 94px;
+}
 
-.work .work-title {
+.work-title {
   margin: 0px;
   margin-bottom: 50px;
 
@@ -238,7 +242,6 @@ a {
 .work-list {
   padding-right: 0px;
   padding-left: 0px;
-  padding-bottom: 94px;
 }
 
 .work-item {
@@ -251,6 +254,11 @@ a {
 }
 
 /* Stuff */
+.staff {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .staff-list {
   flex-wrap: wrap;
 }
@@ -269,7 +277,6 @@ a {
 .staff .staff-title {
   margin: 0px;
   margin-bottom: 50px;
-  padding-top: 94px;
 
   color: var(--dark-color);
   font-weight: 700;
@@ -282,7 +289,6 @@ a {
 .staff-item {
   width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
-  padding-bottom: 94px;
 }
 
 .staff-item:last-child {
@@ -301,6 +307,8 @@ a {
 /* Footer */
 .footer {
   background-color: var(--bg-footer-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-box {
@@ -322,7 +330,7 @@ a {
 }
 
 .footer-list:last-child {
-  padding-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .footer .adress_link {
